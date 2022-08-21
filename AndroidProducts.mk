@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/stag_lemonade.mk
+    $(LOCAL_DIR)/mosquito_lemonade.mk
 
 COMMON_LUNCH_CHOICES := \
-    stag_lemonade-user \
-    stag_lemonade-userdebug \
-    stag_lemonade-eng
+    mosquito_lemonade-user \
+    mosquito_lemonade-userdebug \
+    mosquito_lemonade-eng

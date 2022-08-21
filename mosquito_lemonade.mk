@@ -12,12 +12,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/lemonade/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/stag/main.mk)
+$(call inherit-product, vendor/mosquito/main.mk)
 
 # Extra Animations
 EXTRA_UDFPS_ANIMATIONS := true
 
-PRODUCT_NAME := stag_lemonade
+PRODUCT_NAME := mosquito_lemonade
 PRODUCT_DEVICE := lemonade
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
